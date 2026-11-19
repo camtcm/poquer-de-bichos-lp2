@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 140">
+  <defs>
+    <pattern id="trama" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <circle cx="7" cy="7" r="1.6" fill="#f5efe4" fill-opacity=".28"/>
+    </pattern>
+  </defs>
+  <rect width="100" height="140" fill="#2f3e46"/>
+  <rect width="100" height="140" fill="url(#trama)"/>
+  <rect x="7" y="7" width="86" height="126" rx="6" fill="none" stroke="#f5efe4" stroke-opacity=".45" stroke-width="1.5"/>
+  <circle cx="50" cy="70" r="22" fill="#2f3e46" stroke="#f5efe4" stroke-opacity=".7" stroke-width="1.5"/>
+  <text x="50" y="81" text-anchor="middle" font-family="Georgia, serif" font-size="32" font-weight="700" fill="#f5efe4">?</text>
+</svg>

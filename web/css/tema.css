@@ -1,0 +1,52 @@
+:root {
+
+  --color-fondo: #ffffff;
+  --color-superficie: #ffffff;
+  --color-tinta: #1f2328;
+  --color-tinta-suave: #667085;
+  --color-borde: #e4e7ec;
+
+  --color-primario: #b4472e;
+  --color-primario-oscuro: #933823;
+  --color-sobre-primario: #ffffff;
+
+  --color-mesa: #f4f6f8;
+  --color-sobre-mesa: #1f2328;
+  --color-sobre-mesa-suave: #667085;
+
+  --color-verdad: #3b7a4d;
+  --color-mentira: #a5343a;
+  --color-aviso: #8a5a00;
+  --color-aviso-fondo: #fbe9c2;
+
+  --bicho-arana: #7a4f9a;
+  --bicho-cucaracha: #9a5a2c;
+  --bicho-sapo: #4f7d3a;
+  --bicho-mosca: #2f7f8c;
+  --bicho-rata: #77708a;
+  --bicho-escorpion: #b07a1e;
+  --bicho-murcielago: #4c5596;
+  --bicho-chinche: #b5493a;
+
+  --fuente-titulos: "Fredoka", "Figtree", system-ui, sans-serif;
+  --fuente-texto: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --radio: 10px;
+  --radio-carta: 9px;
+  --sombra: 0 1px 2px rgb(16 24 40 / 6%), 0 2px 8px rgb(16 24 40 / 6%);
+  --espacio: 16px;
+  --ancho-maximo: 1080px;
+
+  --carta-ancho: 92px;
+  --carta-proporcion: 1.4;
+  --imagen-reverso: url("../img/reverso.svg");
+
+  --duracion: 200ms;
+}
+
+@media (max-width: 600px) {
+  :root {
+    --carta-ancho: 74px;
+    --espacio: 12px;
+  }
+}
