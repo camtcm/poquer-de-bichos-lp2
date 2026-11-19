@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: poquer-de-bichos-lp2
+    runtime: docker
+    plan: free
+    healthCheckPath: /salud
+    autoDeploy: true
